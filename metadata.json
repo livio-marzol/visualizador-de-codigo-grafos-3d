@@ -1,0 +1,6 @@
+{
+  "name": "Visualizador 3D de Código",
+  "description": "Visualizador 3D interativo de grafos de código-fonte (arquivos, classes, funções, módulos e variáveis) com Three.js e WebGL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
