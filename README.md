@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌐 Visualizador 3D de Código em Grafos (SourceGraph 3D)
 
-# Run and deploy your AI Studio app
+Uma ferramenta interativa que gera e renderiza grafos tridimensionais da arquitetura de projetos de código, facilitando a visualização de conexões entre arquivos, classes, funções e dependências.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/9e033eab-ae95-4989-932c-c4da504e2645
+## ✨ Funcionalidades
 
-## Run Locally
+- **Visualização Tridimensional (3D):** Navegação dinâmica pelo grafo do projeto.
+- **Categorização por Cores:**
+  - 🔵 Arquivos
+  - 🟣 Classes
+  - 🟢 Funções
+  - 🟠 Variáveis
+  - 🟡 Módulos
+- **Filtros e Destaque:** Filtre elementos por tipo ou clique nos nós para destacar a vizinhança direta.
+- **Suporte a JSON / Exemplos:** Carregamento de grafos personalizados via JSON ou uso de datasets de demonstração (ex: TypeScript).
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tecnologias Utilizadas
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **TypeScript**
+- **React / Vite**
+- **Three.js / 3D Force Graph** (ou a biblioteca de renderização usada)
+- **CSS Moderno / Tailwind**
+
+---
+
+## 🚀 Como Executar Localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/livio-marzol/visualizador-de-codigo-grafos-3d.git
+cd visualizador-de-codigo-grafos-3d
